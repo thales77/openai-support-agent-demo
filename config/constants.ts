@@ -1,6 +1,6 @@
 import { AGENT_NAME } from "./demoData";
 
-export const MODEL = "gpt-4o";
+export const MODEL = "gpt-4o-mini";
 
 // Developer prompt for the assistant
 export const DEVELOPER_PROMPT = `
@@ -24,4 +24,4 @@ Hi, I'm ${AGENT_NAME}, your support representative. How can I help you today?
 
 // Replace with the vector store ID you get after initializing the vector store
 // Go to /init_vs to initialize the vector store with the demo knowledge base
-export const VECTOR_STORE_ID = "<vector_store_id>";
+export const VECTOR_STORE_ID = "vs_681db5631f908191be0ebf092a66fa1e";
